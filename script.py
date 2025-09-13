@@ -56,7 +56,6 @@ print("- Virginica has the longest sepal length on average")
 # Task 3: Data Visualization
 
 # 1. Line chart (trends over time)
-# Iris dataset doesn't have time, so let's plot mean sepal_length by species in a line chart
 plt.figure(figsize=(8, 5))
 grouped.plot(kind='line', marker='o')
 plt.title("Mean Sepal Length by Species (Line Chart)")
@@ -90,3 +89,4 @@ plt.xlabel("Sepal Length")
 plt.ylabel("Petal Length")
 plt.legend(title='Species')
 plt.show()
+
